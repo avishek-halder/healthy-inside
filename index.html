@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <title>Health - Medical Website Template</title>
-     
+
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="description" content="">
@@ -19,7 +20,34 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
+     <style>
+          .whatsapp-float {
+               position: fixed;
+               bottom: 30px;
+               right: 30px;
+               background: #25D366;
+               color: white;
+               width: 60px;
+               height: 60px;
+               border-radius: 50%;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               font-size: 32px;
+               box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+               cursor: pointer;
+               transition: all 0.3s ease;
+               text-decoration: none;
+               z-index: 1000;
+          }
+
+          .whatsapp-float:hover {
+               transform: scale(1.1);
+               box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7);
+          }
+     </style>
 </head>
+
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
      <!-- PRE LOADER -->
@@ -27,10 +55,20 @@
           <div class="spinner">
 
                <span class="spinner-rotate"></span>
-               
+
           </div>
      </section>
 
+
+     <!-- whatsapp logo  -->
+
+     <a href="https://wa.me/917980107365?text=Thank%20a%20you%20a%20for%20a%20contacting%20a%20Dietitian%20a%20Ankita Ghosh.Provide%20a%20diet%20a%20plan%20a%20for%20a%20diabetes,%20a%20underweight,%20a%20obesity,%20a%20cardiac%20a%20problem,%20a%20uric%20a%20acid,%20a%20kidney%20a%20problem,%20a%20gastric%20a%20issues%20a%20etc." class="whatsapp-float"
+          target="_blank" title="Chat on WhatsApp">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
+               <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg>
+     </a>
 
      <!-- HEADER -->
      <header>
@@ -40,11 +78,13 @@
                     <div class="col-md-4 col-sm-5">
                          <p>Welcome to a Professional Health Care</p>
                     </div>
-                         
+
                     <div class="col-md-8 col-sm-7 text-align-right">
-                         <span class="phone-icon"><i class="fa fa-phone"></i> 010-060-0160</span>
-                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM (Mon-Fri)</span>
-                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></span>
+                         <span class="phone-icon"><i class="fa fa-phone"></i> +91 7980170365</span>
+                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM
+                              (Mon-Fri)</span>
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a
+                                   href="#">ankita.ghosg13@gmail.com</a></span>
                     </div>
 
                </div>
@@ -88,37 +128,40 @@
           <div class="container">
                <div class="row">
 
-                         <div class="owl-carousel owl-theme">
-                              <div class="item item-first">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Let's make your life happier</h3>
-                                             <h1>Healthy Living</h1>
-                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctors</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-second">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Aenean luctus lobortis tellus</h3>
-                                             <h1>New Lifestyle</h1>
-                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-third">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Pellentesque nec libero nisi</h3>
-                                             <h1>Your Health Benefits</h1>
-                                             <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Read Stories</a>
-                                        </div>
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Let's make your life happier</h3>
+                                        <h1>Healthy Living</h1>
+                                        <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our
+                                             Doctors</a>
                                    </div>
                               </div>
                          </div>
+
+                         <div class="item item-second">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Aenean luctus lobortis tellus</h3>
+                                        <h1>New Lifestyle</h1>
+                                        <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More
+                                             About Us</a>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="item item-third">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Pellentesque nec libero nisi</h3>
+                                        <h1>Your Health Benefits</h1>
+                                        <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Read
+                                             Stories</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
 
                </div>
           </div>
@@ -132,10 +175,13 @@
 
                     <div class="col-md-6 col-sm-6">
                          <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Your <i class="fa fa-h-square"></i>ealth Center</h2>
+                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Your <i
+                                        class="fa fa-h-square"></i>ealth Center</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae velit volutpat venenatis.</p>
-                                   <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut placerat, diam a tempus vehicula.</p>
+                                   <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur
+                                        lacinia nisi vitae velit volutpat venenatis.</p>
+                                   <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna
+                                        mattis. Ut placerat, diam a tempus vehicula.</p>
                               </div>
                               <figure class="profile wow fadeInUp" data-wow-delay="1s">
                                    <img src="images/author-image.jpg" class="img-responsive" alt="">
@@ -146,7 +192,7 @@
                               </figure>
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </section>
@@ -174,12 +220,14 @@
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <div class="col-md-6 col-sm-6">
                                         <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                             placeholder="Full Name">
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                        <input type="email" class="form-control" id="email" name="email"
+                                             placeholder="Your Email">
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
@@ -199,13 +247,16 @@
 
                                    <div class="col-md-12 col-sm-12">
                                         <label for="telephone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                             placeholder="Phone">
                                         <label for="Message">Additional Message</label>
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
+                                        <textarea class="form-control" rows="5" id="message" name="message"
+                                             placeholder="Message"></textarea>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit
+                                             Button</button>
                                    </div>
                               </div>
-                        </form>
+                         </form>
                     </div>
 
                </div>
@@ -215,15 +266,17 @@
 
      <!-- GOOGLE MAP -->
      <section id="google-map">
-     <!-- How to change your own map point
+          <!-- How to change your own map point
             1. Go to Google Maps
             2. Click on your location point
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117797.00540124385!2d88.3364953845153!3d22.685220315468616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f899db48ece83b%3A0xebc3225fec963cd6!2sDietitian%20Ankita%20Ghosh!5e0!3m2!1sen!2sin!4v1765215503385!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-          
-     </section>           
+          <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117797.00540124385!2d88.3364953845153!3d22.685220315468616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f899db48ece83b%3A0xebc3225fec963cd6!2sDietitian%20Ankita%20Ghosh!5e0!3m2!1sen!2sin!4v1765215503385!5m2!1sen!2sin"
+               width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+     </section>
 
 
      <!-- FOOTER -->
@@ -232,9 +285,10 @@
                <div class="row">
 
                     <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb"> 
+                         <div class="footer-thumb">
                               <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>To book an appointment, kindly contact us at least 24 hours before your preferred time.</p>
+                              <p>To book an appointment, kindly contact us at least 24 hours before your preferred time.
+                              </p>
 
                               <div class="contact-info">
                                    <p><i class="fa fa-phone"></i> +91 7980107365</p>
@@ -243,7 +297,7 @@
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-4"> 
+                    <div class="col-md-4 col-sm-4">
                          <!-- <div class="footer-thumb"> 
                               <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
                               <div class="latest-stories">
@@ -268,17 +322,18 @@
                          </div> -->
                     </div>
 
-                    <div class="col-md-4 col-sm-4"> 
+                    <div class="col-md-4 col-sm-4">
                          <div class="footer-thumb">
                               <div class="opening-hours">
                                    <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
                                    <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
                                    <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
                                    <p>Sunday <span>Closed</span></p>
-                              </div> 
+                              </div>
 
                               <ul class="social-icon">
-                                   <li><a href="" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                   <li><a href="https://www.facebook.com/healthyinside20/" class="fa fa-facebook-square"
+                                             attr="facebook icon"></a></li>
                                    <li><a href="#" class="fa fa-twitter"></a></li>
                                    <li><a href="#" class="fa fa-instagram"></a></li>
                               </ul>
@@ -287,8 +342,8 @@
 
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-4 col-sm-6">
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2026 
+                              <div class="copyright-text">
+                                   <p>Copyright &copy; 2026
                               </div>
                          </div>
                          <div class="col-md-6 col-sm-6">
@@ -300,12 +355,13 @@
                               </div> -->
                          </div>
                          <div class="col-md-2 col-sm-2 text-align-center">
-                              <div class="angle-up-btn"> 
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
+                              <div class="angle-up-btn">
+                                   <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i
+                                             class="fa fa-angle-up"></i></a>
                               </div>
-                         </div>   
+                         </div>
                     </div>
-                    
+
                </div>
           </div>
      </footer>
@@ -321,4 +377,5 @@
      <script src="js/custom.js"></script>
 
 </body>
+
 </html>
